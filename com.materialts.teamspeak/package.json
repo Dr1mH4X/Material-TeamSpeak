@@ -1,0 +1,36 @@
+{
+    "name": "Material TS",
+    "description": "Material 3 Theme for TeamSpeak 6",
+    "version": "1.0.0",
+    "identifier": "com.materialts.teamspeak",
+    "engines": {
+        "teamspeak": 1
+    },
+    "image": "preview.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dr1mH4X/Material-TeamSpeak",
+        "directory": "com.materialts.teamspeak"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Material TS",
+        "url": "https://github.com/Dr1mH4X/Material-TeamSpeak"
+    },
+    "content": {
+        "themes": [
+            {
+                "name": "M3 Dark",
+                "source": "dark3.css",
+                "image": "dark3.png",
+                "apiVersion": 1
+            },
+            {
+                "name": "M3 Light",
+                "source": "light3.css",
+                "image": "light3.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}
