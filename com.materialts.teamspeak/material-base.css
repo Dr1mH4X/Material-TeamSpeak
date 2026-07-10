@@ -1,6 +1,14 @@
 /* ================================
    M3 Tokens
    ================================ */
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --md-sys-shape-none: 0px;
     --md-sys-shape-xs: 4px;
@@ -24,8 +32,8 @@
     /* ================================
        M3 Typography Tokens
        ================================ */
-    --md-ref-typeface-plain: 'Inter', system-ui, -apple-system, sans-serif;
-    --md-ref-typeface-brand: 'Inter', system-ui, -apple-system, sans-serif;
+    --md-ref-typeface-plain: 'Roboto', system-ui, -apple-system, sans-serif;
+    --md-ref-typeface-brand: 'Roboto', system-ui, -apple-system, sans-serif;
 
     --md-sys-typescale-display-large-font: var(--md-ref-typeface-brand);
     --md-sys-typescale-display-large-weight: 700;
