@@ -457,3 +457,132 @@ strong {
 .ts-parsed-text-content .spoiler:not([visible]) {
     background-color: var(--md-sys-color-outline-variant) !important;
 }
+
+/* ================================
+   M3 Typography Application
+   ================================ */
+#app, .main, .body {
+    font-weight: var(--md-sys-typescale-body-medium-weight);
+    font-size: var(--md-sys-typescale-body-medium-size);
+    line-height: var(--md-sys-typescale-body-medium-line-height);
+    letter-spacing: var(--md-sys-typescale-body-medium-letter-spacing);
+}
+
+.tsv-header {
+    font-weight: var(--md-sys-typescale-title-large-weight);
+    font-size: var(--md-sys-typescale-title-large-size);
+    line-height: var(--md-sys-typescale-title-large-line-height);
+    letter-spacing: var(--md-sys-typescale-title-large-letter-spacing);
+}
+
+.tsv-item-content {
+    font-weight: var(--md-sys-typescale-body-medium-weight);
+    font-size: var(--md-sys-typescale-body-medium-size);
+    line-height: var(--md-sys-typescale-body-medium-line-height);
+    letter-spacing: var(--md-sys-typescale-body-medium-letter-spacing);
+}
+
+.tsv-modal-overlay h5 {
+    font-weight: var(--md-sys-typescale-title-large-weight);
+    font-size: var(--md-sys-typescale-title-large-size);
+    line-height: var(--md-sys-typescale-title-large-line-height);
+    letter-spacing: var(--md-sys-typescale-title-large-letter-spacing);
+}
+
+.tsv-server-info-footer {
+    font-weight: var(--md-sys-typescale-body-small-weight);
+    font-size: var(--md-sys-typescale-body-small-size);
+    line-height: var(--md-sys-typescale-body-small-line-height);
+    letter-spacing: var(--md-sys-typescale-body-small-letter-spacing);
+}
+
+.ts-chat-message-system-body {
+    font-weight: var(--md-sys-typescale-body-small-weight);
+    font-size: var(--md-sys-typescale-body-small-size);
+    line-height: var(--md-sys-typescale-body-small-line-height);
+    letter-spacing: var(--md-sys-typescale-body-small-letter-spacing);
+}
+
+/* ================================
+   M3 Card
+   ================================ */
+.ts-card, .ts-simple-card, .tsv-dashboard-widget {
+    background: var(--md-sys-color-surface-container-highest) !important;
+    border-radius: var(--md-sys-shape-md) !important;
+    box-shadow: var(--md-sys-elevation-level1) !important;
+}
+
+/* ================================
+   M3 Tab Navigation
+   ================================ */
+.tsv-tab-item-active {
+    background: var(--md-sys-color-secondary-container) !important;
+    color: var(--md-sys-color-on-secondary-container) !important;
+}
+
+.tsv-tabs-slim:before {
+    background: var(--md-sys-color-surface-container) !important;
+}
+
+/* ================================
+   M3 Focus Ring
+   ================================ */
+:focus-visible {
+    outline: 2px solid var(--md-sys-color-primary) !important;
+    outline-offset: 2px !important;
+}
+
+/* ================================
+   M3 Modal
+   ================================ */
+.tsv-modal-overlay {
+    background: var(--md-sys-color-scrim) !important;
+    backdrop-filter: blur(4px);
+}
+
+/* ================================
+   M3 Context Menu
+   ================================ */
+.ts-context-menu {
+    background: var(--md-sys-color-surface-container) !important;
+    border-radius: var(--md-sys-shape-sm) !important;
+    box-shadow: var(--md-sys-elevation-level3) !important;
+}
+
+/* ================================
+   M3 Divider
+   ================================ */
+.ts-v-activity-group-list .tsv-item-group:before {
+    background: var(--md-sys-color-outline-variant) !important;
+}
+
+/* ================================
+   M3 Badge (notification indicator)
+   ================================ */
+.tsv-icon-notifications .tsv-icon-base-fill {
+    fill: var(--md-sys-color-error) !important;
+}
+
+/* ================================
+   M3 Tooltip
+   ================================ */
+.tooltip .tooltip-inner {
+    background: var(--md-sys-color-inverse-surface) !important;
+    color: var(--md-sys-color-inverse-on-surface) !important;
+    border-radius: var(--md-sys-shape-xs) !important;
+    font-weight: var(--md-sys-typescale-label-small-weight);
+    font-size: var(--md-sys-typescale-label-small-size);
+    line-height: var(--md-sys-typescale-label-small-line-height);
+    letter-spacing: var(--md-sys-typescale-label-small-letter-spacing);
+}
+
+/* ================================
+   M3 Reduced Motion
+   ================================ */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
